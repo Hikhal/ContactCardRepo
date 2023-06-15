@@ -26,27 +26,26 @@ class ContactCards extends Component{
 
     render(){
         return (
-            <div>
-                <h1> Contact1: {this.state.contactName1}</h1>
+            <div id = "g2">
+                <h1> Contact1:</h1>
+                <h2>Contact Name: {this.state.contactName1}</h2>
                  <h2>email: {this.state.email1}</h2>
                  <h2>phonenumber: {this.state.phoneNumber1}</h2>
                  <h2>workNo1: {this.state.workNo1}</h2>
                  <br />
 
-                 <h1> Contact2: {this.state.contactName2}</h1>
+                 <h1> Contact2:</h1>
+                 <h2>Contact Name: {this.state.contactName2}</h2>
                  <h2>email2: {this.state.email2}</h2>
                  <h2>phonenumber2: {this.state.phoneNumber2}</h2>
                  <h2>workNo2: {this.state.workNo2}</h2>
                  <br />
 
-                 <h1> Contact3: {this.state.contactName3}</h1>
+                 <h1> Contact3:</h1>
+                 <h2>Contact Name: {this.state.contactName3}</h2>
                  <h2>email3: {this.state.email3}</h2>
                  <h2>phonenumber3: {this.state.phoneNumber3}</h2>
                  <h2>workNo3: {this.state.workNo3}</h2>
-
-
-
-
             </div>
         )
     }
